@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'app_EyE',
         'USER': 'root',
         'PASSWORD': '3008',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }

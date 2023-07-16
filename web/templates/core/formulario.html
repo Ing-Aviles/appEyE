@@ -1,0 +1,47 @@
+{% extends 'core/catalogoEmpresas.html' %}
+
+{% block content %}
+<div class="container">
+    <h1>Bienvenido al Formulario-{{user.username}}</h1>
+    <form method="POST" action="#">
+        {% csrf_token %}
+        <h2>Empresa</h2>
+        <div class="mb-3">
+            <label for="empresa_nombre" class="form-label">Nombre de la empresa</label>
+            <input type="text" class="form-control" id="empresa_nombre" name="empresa_nombre" value="{{ empresa.nombre_Empresa }}">
+        </div>
+        <div class="mb-3">
+            <label for="empresa_razon_social" class="form-label">Razón social</label>
+            <input type="text" class="form-control" id="empresa_razon_social" name="empresa_razon_social" value="">
+        </div>
+        <div class="mb-3">
+            <label for="empresa_contacto" class="form-label">Contacto</label>
+            <input type="text" class="form-control" id="empresa_contacto" name="empresa_contacto" value="">
+        </div>
+        <div class="mb-3">
+            <label for="empresa_modalidad" class="form-label">Modalidad</label>
+            <input type="text" class="form-control" id="empresa_modalidad" name="empresa_modalidad" value="">
+        </div>
+
+        <h2>Alumno</h2>
+        <div class="mb-3">
+            <label for="alumno_nombre_completo" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="alumno_nombre_completo" name="alumno_nombre_completo" value="">
+        </div>
+        <div class="mb-3">
+            <label for="alumno_carrera" class="form-label">Carrera</label>
+            <input type="text" class="form-control" id="alumno_carrera" name="alumno_carrera" value="">
+        </div>
+        <div class="mb-3">
+            <label for="alumno_proceso_realizar" class="form-label">Proceso a realizar</label>
+            <input type="text" class="form-control" id="alumno_proceso_realizar" name="alumno_proceso_realizar" value="">
+        </div>
+        <div class="mb-3">
+            <label for="alumno_contacto" class="form-label">Contacto</label>
+            <input type="text" class="form-control" id="alumno_contacto" name="alumno_contacto" value="">
+        </div>
+
+        <a type="submit" class="btn btn-success">Enviar</a>
+    </form>
+</div>
+{% endblock %}

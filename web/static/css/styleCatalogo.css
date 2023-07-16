@@ -196,3 +196,50 @@ body {
 
 }
 
+/* aqui inician los estilos de los formularios de login*/
+.login-container {
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px; /* Ancho personalizado */
+  height: auto; /* Altura automática */
+  max-width: 90%; /* Ancho máximo permitido */
+}
+
+.form-group label {
+  color: green;
+}
+
+.form-control {
+  border: 1px solid green;
+}
+
+.btn-primary {
+  background-color: green;
+  border-color: green;
+}
+
+.btn-primary:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+/*Estilos del nav de la decision alumno empresa*/
+
+.card {
+  background-color: black;
+}
+
+.custom-dropdown {
+  color: #000000; /* Cambia #000000 al color negro que desees */
+}
+
+.custom-dropdown-menu {
+  background-color: #000000; /* Cambia #000000 al color negro que desees */
+}
+

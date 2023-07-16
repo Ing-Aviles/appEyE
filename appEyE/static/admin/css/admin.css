@@ -1,0 +1,29 @@
+/* Cambiar el color de fondo del encabezado */
+#header {
+    background-color: green;
+}
+
+/* Cambiar el color del texto del encabezado */
+#branding h1, #branding h1 a {
+    color: black;
+}
+
+/* Cambiar el color del fondo de la barra lateral */
+#sidebar {
+    background-color: green;
+}
+
+/* Cambiar el color del texto de la barra lateral */
+#sidebar .module h2, #sidebar .module caption, #sidebar .module .module-name {
+    color: black;
+}
+
+/* Cambiar el color de fondo de la tabla */
+#content-related .module tbody th, #content-related .module tbody td {
+    background-color: green;
+}
+
+/* Cambiar el color del texto de la tabla */
+#content-related .module tbody th, #content-related .module tbody td {
+    color: black;
+}
